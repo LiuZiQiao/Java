@@ -17,18 +17,26 @@ package day9_11;
 public class addTwoNumbers {
 
 	public static void main(String[] args) {
+
+		demo();
+		}
+	public static void demo() {
 		Solution s = new Solution();
 		ListNode l1 = null;
-		add(l1,1);
-		add(l1,1);
-		add(l1,1);
+		l1.val = 1;
+		l1.val = 1;
+		l1.val = 1;
+		
 		ListNode l2 = null;
-		add(l2,1);
-		add(l2,1);
-		add(l2,1);
+		l2.val = 2;
+		l2.val = 2;
+		l2.val = 2;
 		ListNode ret = s.addTwoNumbers(l1, l2);
-		System.out.println(ret);
+		while (ret != null) {
+			System.out.println(ret.val);
+			ret = ret.next;
 		}
+	}
 	public static void add(ListNode list,int val) {
 		ListNode node = new  ListNode(val);
 		if (list == null) {
@@ -48,44 +56,28 @@ class Solution {
     	ListNode root = new ListNode(0);
     	ListNode rear = root;
     	int carry = 0;
-    	if (l1 == null) {
-			return l2;
-		}
-    	if (l2 == null) {
-			return l1;
-		}
     	
-    	while(l1!=null&&l2!=null)
+    	
+    	while(l1 != null || l2 != null)
     	{
-    		int ret = (l1.val+l2.val)%10;
-    		ListNode node = new ListNode(ret);
-    		rear.next = node;
-    		carry = (l1.val+l2.val+carry)/10;
-    		rear = node;
-    		l1 = l1.next;
-    		l2 = l2.next;
+    		int d1 = l1 == null?0:l1.val;
+    		int d2 = l2 == null?0:l2.val;
+    		int sum = d1+d2+carry;
+    		
+    		rear.next =new ListNode(sum%10);
+    		rear = rear.next;
+    		
+    		if (l1 != null) {
+				l1 = l1.next;
+			}
+    		if (l2 != null) {
+				l2 = l2.next;
+			}
     	}
-    	
-    	if (l1 == null) {
-			rear.next = l2;
-		}
-    	else {
-			rear.next = l1;
-		}
     	
     	if (carry == 1) {
-			while(rear.next!=null)
-			{
-				int sum = (rear.next.val+carry);
-				rear.next.val = sum%10;
-				
-				carry = sum/10;
-				rear =rear.next;
-			}
-			if (carry == 1) {
-				rear.next = new ListNode(0);
-			}
-    	}
+			rear.next = new ListNode(1);
+		}
     	return root.next;
     }
 }
