@@ -29,10 +29,8 @@ public class findMedSortedArrays {
 		int left = (len1+len2+1)/2;
 		int right = (len1+len2+2)/2;
 		return (findKey(nums1,nums2,left) + findKey(nums1, nums2, right)) / 2.0;	
-		
-		
 	}
-		static int findKey(int[] nums1, int[] nums2, int k) {
+	static int findKey(int[] nums1, int[] nums2, int k) {
 		if (nums1.length > nums2.length) {
 			return findKey(nums1, nums2, k);
 		}

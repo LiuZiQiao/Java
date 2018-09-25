@@ -1,5 +1,10 @@
 package day9_16;
 
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Vector;
+
 /**
 * @author 作者  小小刘
 * @version 创建时间：2018年9月16日 下午9:47:42
@@ -9,33 +14,40 @@ package day9_16;
 public class Array_Intersection {
 
 	public static void main(String[] args) {
-		Solution s =  new Solution();
+		
 		int[] nums1 = {1,2,3};
 		int[] nums2 = {2,3,4};
 		
-		int[] ret = s.intersection(nums1, nums2);
-		System.out.println("123");
-		System.out.println(ret.length);
-		for (int i = 0; i < ret.length; i++) {
-			System.out.println(ret[i]);
+		int[] ret = intersection(nums1, nums2);
+		System.out.println(ret);
+	}
+	   public static int[] intersection(int[] nums1, int[] nums2) {
+		   Arrays.sort(nums1);
+		   Arrays.sort(nums2);
+		   
+		   List<Integer> tmp = new ArrayList<Integer>();
+		   
+		   int i = 0,j = 0;
+		   while(i<nums1.length && j <nums2.length)
+		   {
+			   if (nums1[i] < nums2[j]) {
+				i++;
+			   }
+			   else if (nums1[i] > nums2[j]) {
+				j++;
+			   }
+			   else {
+				tmp.add(nums1[i]);
+			   }
+		   }
+		   
+		   int[] result = new int[tmp.size()];
+		   for (int k = 0; k < result.length; k++) {
+			result[k] = tmp.get(k);
 		}
- 	}
+		return result;
+	        
+	    }
+	   
 
-}
-
-
-class Solution {
-    public int[] intersection(int[] nums1, int[] nums2) {
-		int[] res = {0};
-		int i = 0;int n = 0;
-		do {
-			for (int j = 0; j < nums2.length; j++) {
-				if (nums1[i] == nums2[j]) {
-					res[n] = nums2[j];
-					n++;
-				}
-			}
-		} while (i<nums1.length);
-    	return res;
-    }
 }
