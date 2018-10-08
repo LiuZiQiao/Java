@@ -1,8 +1,7 @@
 package day9_16;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.HashSet;
+import java.util.Set;
 
 /**
 * @author 作者  小小刘
@@ -18,35 +17,31 @@ public class Array_Intersection {
 		int[] nums2 = {2,3,4};
 		
 		int[] ret = intersection(nums1, nums2);
-		System.out.println(ret);
-	}
-	   public static int[] intersection(int[] nums1, int[] nums2) {
-		   Arrays.sort(nums1);
-		   Arrays.sort(nums2);
-		   
-		   List<Integer> tmp = new ArrayList<Integer>();
-		   
-		   int i = 0,j = 0;
-		   while(i<nums1.length && j <nums2.length)
-		   {
-			   if (nums1[i] < nums2[j]) {
-				i++;
-			   }
-			   else if (nums1[i] > nums2[j]) {
-				j++;
-			   }
-			   else {
-				tmp.add(nums1[i]);
-			   }
-		   }
-		   
-		   int[] result = new int[tmp.size()];
-		   for (int k = 0; k < result.length; k++) {
-			result[k] = tmp.get(k);
+		for (int i = 0; i < ret.length; i++) {
+			
+			System.out.println(ret[i]);
 		}
-		return result;
-	        
-	    }
-	   
+	}
+	public static int[] intersection(int[] nums1, int[] nums2) {
+		Set<Integer> set1 = new HashSet();
+		Set<Integer> set2 = new HashSet();
+		for (int i = 0; i < nums2.length; i++) {
+			set1.add(nums1[i]);
+		}
+		
+		for (int j = 0; j < nums1.length; j++) {
+			if (set1.contains(nums2[j])) {
+				set2.add(nums2[j]);
+			}
+		}
+		int[] num = new int[set2.size()];
+		int i = 0;
+		for (Integer n : set2) {
+			num[i] = n;
+			i++;
+		}
+		
+		return num;
+	}
 
 }
