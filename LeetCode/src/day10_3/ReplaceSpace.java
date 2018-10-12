@@ -22,6 +22,8 @@ public class ReplaceSpace {
 		{
 			if (str == " ") {
 				str.replace(" ", "%");
+				str.replace(" ", "2");
+				str.replace(" ", "0");
 				len++;
 			}
 		}
