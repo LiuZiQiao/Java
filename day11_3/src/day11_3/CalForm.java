@@ -114,13 +114,13 @@ public class CalForm extends JFrame{
 
 	public void addButton1(JButton jButton, ActionListener command) {
 		JButton button = new JButton();
-		button.addActionListener(listener);
+		button.addActionListener(command);
 		panel1.add(button);
 
 		}
 	public void addButton2(JButton jButton, ActionListener command) {
 		JButton button = new JButton();
-//		button.addActionListener(listener);
+		button.addActionListener(command);
 		panel2.add(button);
 
 		}

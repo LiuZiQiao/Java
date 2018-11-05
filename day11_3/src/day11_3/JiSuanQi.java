@@ -185,7 +185,12 @@ class myPanel extends JPanel {
 				result = num1 * num2;
 				break;
 			case '/':
-				result = num1 / num2;
+				if (num2 == 0) {
+					result = 0;
+				}
+				else {
+					result = num1 / num2;
+				}
 				break;
 			default:
 				break;
