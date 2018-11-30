@@ -70,5 +70,11 @@ public class BridgeServiceImpl implements BridgeService {
 		return bridge.seachByArea(area);
 	}
 
+	@Override
+	public boolean IdIsExist(String id) {
+		
+		return bridge.IdIsExist(id);
+	}
+
 
 }

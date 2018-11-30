@@ -56,14 +56,19 @@ public class deletePanel extends JPanel{
 		// 删除按钮事件
 		deleteBt.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
-            	BridgeService sp = new BridgeServiceImpl();
-            	if(sp.deleteById(daleteText.getText())) {
+            	BridgeService bs = new BridgeServiceImpl();
+            	if (daleteText.getText().equals("")) {
+            		JOptionPane.showMessageDialog(null, "请输入编号！", "Error", JOptionPane.ERROR_MESSAGE);
+				}
+            	else if (!bs.IdIsExist(daleteText.getText())) {
+					JOptionPane.showMessageDialog(null, "编号不存在！", "Success", JOptionPane.PLAIN_MESSAGE);
+				} else if( bs.deleteById(daleteText.getText())) {
 					JOptionPane.showMessageDialog(null, "删除成功！", "Success", JOptionPane.PLAIN_MESSAGE);
-				}
-				else {
-					JOptionPane.showMessageDialog(null, "删除失败！", "Error", JOptionPane.ERROR_MESSAGE);
-				}
-            }
+            		}
+            		else {
+            			JOptionPane.showMessageDialog(null, "删除失败！", "Error", JOptionPane.ERROR_MESSAGE);
+            		}
+            	}
         });
 	}
 }

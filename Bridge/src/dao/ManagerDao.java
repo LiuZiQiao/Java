@@ -7,4 +7,5 @@ package dao;
 import bean.Manager;
 public interface ManagerDao {
 	Manager login(String admin);
+
 }

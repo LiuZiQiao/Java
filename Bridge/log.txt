@@ -1,0 +1,742 @@
+﻿
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 lll,ip为  127.0.0.1,进行了 try to login,but fliad 操作
+
+用户 刘小坤,ip为  127.0.0.1,进行了 login success 操作
+
+用户 刘小坤,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5a616fe: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@11611b78: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6268f33f: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@711a8271: SELECT * from Bridge_table where NAME LIKE 'kkk%' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@df7566d: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@52e2945b: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@48b35144: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5a616fe: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@75cd740b: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@15cd7be: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@239f4d7: SELECT * from Bridge_table where id = '5' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5b31e938: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@409408a9: SELECT * from Bridge_table where id = '5' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@59c3d9a7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4a2de39: SELECT * from Bridge_table where NAME LIKE 'nnn%' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@323e361e: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@56120cc5: SELECT *from Bridge_table  where area = 'bbb' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3dfe358e: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6bb7fabb: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1618dee8: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@12bac257: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@69275a96: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@418a74d2: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@ccbebe7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@77700c08: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2af47874: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5b849b44: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c985e93: SELECT * from Bridge_table where id = '6' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@50b2bd95: SELECT * from Bridge_table where id = '6' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@36b3f8e: SELECT * from Bridge_table where id = '6' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7a419a8e: SELECT * from Bridge_table where id = '6' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@69fd6353: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@46634504: SELECT * from Bridge_table where id = '3' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@540d5f84: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@53cdfe67: DELETE FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@455eaf68: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@26d2b796: SELECT * from Bridge_table where id = '3' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@40037539: SELECT * from Bridge_table where id = '3' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@63f34dc6: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@78263e6c: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4e220bb5: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@dd89856: DELETE FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@48f1b937: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1307a4e5: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1576bdf7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6b83a23a: DELETE FROM Bridge_Table WHERE ID = ''  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2a311ea9: DELETE FROM Bridge_Table WHERE ID = ''  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@a465407: DELETE FROM Bridge_Table WHERE ID = ''  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7cfa0385: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7ce253be: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@54729ee3: DELETE FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5b05b8ec: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@32a86f1d: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4eb22be9: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2f962e1: DELETE FROM Bridge_Table WHERE ID = ''  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@903128: DELETE FROM Bridge_Table WHERE ID = ''  操作
+
+用户 root,ip为  127.0.0.1,进行了 try to login,but fliad 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@40b4fca2: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2986ada0: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@e7d74a0: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1dccea38: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@fa4a5c1: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7c3660a8: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5d6ec4cc: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1be13e2a: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@76a8dc9d: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1976858: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@aeba0e4: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2bb61f8b: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4e99ade7: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@eba3e44: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@19ed8d58: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3a1befa0: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@14680488: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c98671: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@67ce2ead: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@b9b2a37: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@fd2ebcd: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@9a3bca: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@d6e4d15: SELECT FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@9079c59: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5924570c: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@54729ee3: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2a0e9161: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5e1eaad5: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 刘小坤,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@474dc32d: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4706b53f: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7c70e6b0: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7e50df40: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@35a17fd5: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4ecee072: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4fd491ac: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@465833be: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2f71f06b: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@9079c59: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5924570c: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@55088a4b: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@31657b0c: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4b69aae0: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@30908255: SELECT FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@b4b867b: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@151b6dea: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@43219ddf: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@10e039d3: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7555edd5: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@77bca908: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@18fa9a9: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@59ddfe59: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@231f13c4: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@fd243ef: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4dd192e3: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5237b854: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@73918fee: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7fe1f654: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7e05eb27: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@ac01adb: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5512b22c: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4de14a5b: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@548ba820: SELECT FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7d36991: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@81eb016: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2e43d8f9: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@bd633be: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@330e1f7c: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@564758ce: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@41de60c0: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@156e5de2: DELETE FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7518c1ee: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@420d6771: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@64f2f2e7: DELETE FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@81eb016: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2e43d8f9: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@bd633be: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@330e1f7c: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4b69aae0: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@30908255: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@b4b867b: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@c71ce60: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@53e8d8c9: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@aeba0e4: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@9079c59: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5924570c: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@50cb13d8: SELECT *FROM Bridge_Table WHERE ID = '5'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7bbe3091: SELECT *FROM Bridge_Table WHERE ID = '5'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4524a528: DELETE FROM Bridge_Table WHERE ID = '5'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4eb22be9: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2f962e1: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@59a965b4: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@78c13: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@69ee25e7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1b97b3c1: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5f06458e: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@17377c87: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@437b403d: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3581c707: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1c52b7fe: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@30c601cd: SELECT * from Bridge_table where id = '1' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@58463266: SELECT * from Bridge_table where id = '1' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@81eb016: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@42311c18: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7bbe3091: SELECT * from Bridge_table where id = '1' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@53e8d8c9: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7cacae3d: SELECT * from Bridge_table where id = '1' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1976858: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6417397c: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@63910216: SELECT * from Bridge_table where id = '1' 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@693ac0aa: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@58463266: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@54729ee3: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@682eb3bd: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@35bff8b1: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2f962e1: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@765acd6c: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@81eb016: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4d978110: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@621e2dd7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4b69aae0: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@41de60c0: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@74ad52d6: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4de8488f: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@f8e434d: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@36e68c83: SELECT *FROM Bridge_Table WHERE ID = 'eee'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7c6a617: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3b58cfa8: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@16a7aed9: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4b577143: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@284ea984: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@15cf69bd: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3fe54721: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@27f09a13: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@226a7e6: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c2e3ce4: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@61fba977: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@12a53e37: SELECT *FROM Bridge_Table WHERE ID = 'eee'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@24c643f3: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@38517a34: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@77610bbc: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@b9b2a37: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@fd2ebcd: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5d81112e: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1b1b0047: SELECT *FROM Bridge_Table WHERE ID = 'aaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@66eaac8e: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7f218806: DELETE FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@705c5d9f: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5bc2d3e6: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@381c18b7: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@296030a4: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6269ec48: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@708e3558: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@23f2ed81: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@30459a44: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@70c85180: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1de95f91: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c43b0f0: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@744b0016: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5da8ea95: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@106867: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6c77bfc3: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@64ffbb83: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1b7944e9: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@c609898: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1eb06c15: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5b0a4aad: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@41cd2643: SELECT *FROM Bridge_Table WHERE ID = 'eeee'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@270bcca0: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4524a528: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@30908255: SELECT *FROM Bridge_Table WHERE ID = 'aa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7254595f: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2c8e4937: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3389475d: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6f6b2d7f: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1b97b3c1: DELETE FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3581c707: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2c945da4: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@55ff5feb: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@17a43910: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@66d99db0: SELECT *FROM Bridge_Table WHERE ID = 'aaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@570e38d6: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6ec8ba2e: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@591b815f: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@e7a4101: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4a3bae5d: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@114e6152: SELECT *FROM Bridge_Table WHERE ID = 'aaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@24f6a06: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1175acbb: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@306c62ca: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@e2f303f: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@57114f8: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6d323e46: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4f2f9bfb: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** WHERE id = ** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** WHERE id = ** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`='?',length = ** NOT SPECIFIED **,type='?',area='?' WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@b78a6c4: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@58132910: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@23ccecb1: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@123cb1e3: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`='?',length = ** NOT SPECIFIED **,type='?',area='?' WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`='?',length = ** NOT SPECIFIED **,type='?',area='?' WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4d269d7a: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@75a00016: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2f3f8ea8: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@70b6b3e4: SELECT * from Bridge_table where id = '22' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4d79436: SELECT * from Bridge_table where id = '22' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@58846ae0: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@77e4fe67: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@295c3cd3: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7ad66a09: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@36c6c9b7: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3f689c28: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1de1588f: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@53832f98: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@798b7619: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@786f725: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@29f7cf97: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@28928b7a: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@66c63b76: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@648a5732: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7f442a71: SELECT *FROM Bridge_Table WHERE ID = 'aaaaa'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5221fff2: UPDATE  Bridge_Table SET id = ** NOT SPECIFIED ** ,name =** NOT SPECIFIED ** ,length=** NOT SPECIFIED ** , type=** NOT SPECIFIED ** ,area=** NOT SPECIFIED ** , Manname=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@404f405b: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7b22f90f: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c9c2386: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@720e48bb: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@206a7f19: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,`name`=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@37bba400: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@774f16d5: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@61fcbd24: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3c876762: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2fbcc981: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2e3fe198: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@53008812: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5c8f660f: SELECT *FROM Bridge_Table WHERE ID = 'eeee'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@64795d6b: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3fe54721: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@27f09a13: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7385dee: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@3994b1e2: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@55088a4b: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@739b2809: SELECT *FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@49c6c7f8: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1a83bd27: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@6796ba64: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2ebd2e31: SELECT *FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4e99ade7: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@40936927: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4c8b52ad: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@c14596e: SELECT *FROM Bridge_Table WHERE ID = '1'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7cbed05f: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@5f35c853: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@78002b62: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4ddfd214: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@45dc061f: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1008522b: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4494fd: SELECT *FROM Bridge_Table WHERE ID = '2'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@72fd8a89: SELECT *FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@711a8271: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@72091c78: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@78a1847a: SELECT *FROM Bridge_Table WHERE ID = '3'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@413be52a: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@2c65e04a: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@57bd9592: SELECT *from Bridge_Table 操作
+
+用户 root,ip为  127.0.0.1,进行了 login success 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@1976858: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@57bd9592: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@f8e434d: SELECT * from Bridge_table where id = '3' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@e819c67: SELECT * from Bridge_table where id = '2' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@36e68c83: SELECT * from Bridge_table where id = '1' 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@529a36e5: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@c2ebf1f: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@7d39eddc: INSERT INTO Bridge_Table (id , name, length, type, area, manname ) VALUES (** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **,** NOT SPECIFIED **); 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4fd491ac: SELECT *from Bridge_Table 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@474c3ae7: SELECT *FROM Bridge_Table WHERE ID = '5'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@4062a8a: SELECT *FROM Bridge_Table WHERE ID = '5'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@14680488: SELECT *FROM Bridge_Table WHERE ID = '4'  操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@237b097d: UPDATE bridge_table set id = ** NOT SPECIFIED **,name=** NOT SPECIFIED **,length = ** NOT SPECIFIED **,type=** NOT SPECIFIED **,area=** NOT SPECIFIED **,Manname=** NOT SPECIFIED ** WHERE id=** NOT SPECIFIED ** 操作
+
+用户 liu,ip为  127.0.0.1,进行了 com.mysql.jdbc.JDBC4PreparedStatement@26f4bf4a: SELECT *from Bridge_Table 操作

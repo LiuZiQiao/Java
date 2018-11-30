@@ -18,22 +18,23 @@ import dao.impl.BridgeDaoImpl;
 public class Test {
 
 	public static void main(String[] args) {
-		ManagerDaoImpl man = new ManagerDaoImpl();
-		String name = "root";
-		String passwd = "123456";
-		
-		ManagerDao managerDao = new ManagerDaoImpl();
-		Manager manager = new Manager();
-		manager = managerDao.login(name);
-		
-		System.out.println("username: "+manager.getName()+" "+"password: "+manager.getPasswd());
-		
+//		ManagerDaoImpl man = new ManagerDaoImpl();
+//		String name = "root";
+//		String passwd = "123456";
+//		
+//		ManagerDao managerDao = new ManagerDaoImpl();
+//		Manager manager = new Manager();
+//		manager = managerDao.login(name);
+//		
+//		System.out.println("username: "+manager.getName()+" "+"password: "+manager.getPasswd());
+//		
 
 		
 		//创建查询对象
-//		StreetDao streetDao = new StreetDaoImpl();
-
-		
+//		BridgeDao streetDao = new BridgeDaoImpl();
+//		Bridge bridge = new Bridge("2","baqiao","ggg",212,"cdc","yyy");
+//		System.out.println(streetDao.modfiy(bridge));
+//		System.out.println(streetDao.findById("2"));
 	}
 
 }

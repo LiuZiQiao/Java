@@ -15,6 +15,7 @@ public interface BridgeDao {
 	Bridge findById(String id);
 	boolean Insert(Bridge bridge);
 	boolean deleteById(String id);
+	boolean IdIsExist(String id);
 	boolean modfiy(Bridge bridge);
 	
 	List<Bridge> findAll();

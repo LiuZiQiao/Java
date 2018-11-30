@@ -11,11 +11,6 @@ import java.sql.SQLException;
 
 public class ConnectionManager {
 	private static final String dirver ="com.mysql.jdbc.Driver";
-//	private static final String url ="jdbc:mysql://120.77.144.135/Street_Manager" + "";
-//	private static final String user ="Street_Manager";
-//	private static final String passwd ="mysql401575264";
-	
-	//localhost mysql
 	private static final String url ="jdbc:mysql://localhost:3306/Bridge";
 	private static final String user ="root";
 	private static final String passwd ="123456";

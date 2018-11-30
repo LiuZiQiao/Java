@@ -1,5 +1,6 @@
 package dao.impl;
 
+import java.io.File;
 import java.sql.*;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -10,6 +11,7 @@ import java.util.List;
 import bean.Bridge;
 import dao.BridgeDao;
 import dbutil.ConnectionManager;
+import dbutil.LogInfo;
 
 /**
 * @author 作者  小小刘
@@ -17,7 +19,9 @@ import dbutil.ConnectionManager;
 * 类说明
 */
 public class BridgeDaoImpl implements BridgeDao {
-
+	File file = new File("F:log.txt");
+	String url = "127.0.0.1";
+	String username = "liu";
 	@Override
 	public Bridge findById(String id) {
 		Bridge bridge = null;
@@ -32,7 +36,7 @@ public class BridgeDaoImpl implements BridgeDao {
 			pstmt.setString(1, id);
 			
 			ResultSet rs = pstmt.executeQuery();
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 //			Statement stmt = conn.createStatement();//创建执行sql 的语句
 //			
 //			ResultSet rs = stmt.executeQuery(sql);//执行sql语句			
@@ -66,7 +70,7 @@ public class BridgeDaoImpl implements BridgeDao {
 		
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			pstmt.setString(1,bridge.getId());
 			pstmt.setString(2, bridge.getName());
 			pstmt.setInt(3, bridge.getLength());
@@ -86,50 +90,89 @@ public class BridgeDaoImpl implements BridgeDao {
 
 	@Override
 	public boolean deleteById(String id) {
+		
+		boolean flage = true;
+		if (IdIsExist(id)) {
+			flage = true;
+
+			Connection conn = ConnectionManager.getConnection();
+			if (conn != null) {
+				System.out.println("conn is true");
+			}
+			String sql = "DELETE FROM Bridge_Table WHERE ID = ? ";
+			
+			try {
+				PreparedStatement pstmt = conn.prepareStatement(sql);
+				pstmt.setString(1, id);
+				LogInfo.saveLog(file,username, url,pstmt.toString());
+				pstmt.executeUpdate();
+				
+				pstmt.close();
+			} catch (SQLException e) {
+				e.printStackTrace();
+			}finally {
+				ConnectionManager.closeConnection();
+			}
+		}
+		else
+		{
+			flage = false;
+		}
+		
+		return flage;
+	}
+	
+	public boolean IdIsExist(String id)
+	{
+		boolean flage =true;
 		Connection conn = ConnectionManager.getConnection();
+		
 		if (conn != null) {
 			System.out.println("conn is true");
 		}
-		String sql = "DELETE FROM Bridge_Table WHERE ID = ? ";
-		
+		String sql = "SELECT *FROM Bridge_Table WHERE ID = ? ";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, id);
-			
-//			pstmt.setString(1,street.getId());
-//			pstmt.setString(2, street.getName());
-//			pstmt.setInt(3, street.getLength());
-//			pstmt.setString(4, street.getType());
-//			pstmt.setString(5, street.getArea());
-//			pstmt.setString(6, street.getManName());
-			
-			pstmt.executeUpdate();
+			LogInfo.saveLog(file,username, url,pstmt.toString());
+			ResultSet count = pstmt.executeQuery();
+			if (count.next()) {
+				flage = true;    //此时ID存在，返回true
+				System.out.println(count.toString());
+			}
+			else {
+				flage = false;		//id不存在，返回flase
+			}
 			pstmt.close();
 		} catch (SQLException e) {
 			e.printStackTrace();
 		}finally {
 			ConnectionManager.closeConnection();
 		}
-		return true;
+		return flage;
+		
 	}
-
+	
 	@Override
 	public boolean modfiy(Bridge bridge) {
 		Connection conn = ConnectionManager.getConnection();
 		if (conn != null) {
 			System.out.println("conn is true");
 		}
-		String sql = "UPDATE  Bridge_Table SET id = ? ,name =? ,"
-				+ "length=? , type=? ,area=? , Manname=?" ;		
+//		String sql = "UPDATE  Bridge_Table SET id = ? ,name =? ,"
+//				+ "length=? , type=? ,area=? , Manname=? WHERE id = ?" ;	
+		String sql = "UPDATE bridge_table set id = ?,name=?,length = ?,type=?,area=?,Manname=? WHERE id=?";
+		
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			pstmt.setString(1,bridge.getId());
 			pstmt.setString(2, bridge.getName());
 			pstmt.setInt(3, bridge.getLength());
 			pstmt.setString(4, bridge.getType());
 			pstmt.setString(5, bridge.getArea());
 			pstmt.setString(6, bridge.getManName());
+			pstmt.setString(7,bridge.getId());
 			
 			pstmt.executeUpdate();
 			pstmt.close();
@@ -153,7 +196,7 @@ public class BridgeDaoImpl implements BridgeDao {
 		
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			ResultSet rs = pstmt.executeQuery();
 			
 			while(rs.next())
@@ -186,8 +229,8 @@ public class BridgeDaoImpl implements BridgeDao {
 		String sql = "SELECT * from Bridge_table where NAME LIKE ?";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
-			pstmt.setString(1, name+"%");;
-			
+			pstmt.setString(1, name+"%");
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			ResultSet rs = pstmt.executeQuery();
 			
 			while(rs.next())
@@ -222,7 +265,7 @@ public class BridgeDaoImpl implements BridgeDao {
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, type);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			ResultSet rs = pstmt.executeQuery();
 			
 			while(rs.next())
@@ -257,7 +300,7 @@ public class BridgeDaoImpl implements BridgeDao {
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, ManName);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			ResultSet rs = pstmt.executeQuery();
 			
 			while(rs.next())
@@ -292,7 +335,7 @@ public class BridgeDaoImpl implements BridgeDao {
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(sql);
 			pstmt.setString(1, area);
-			
+			LogInfo.saveLog(file,username, url,pstmt.toString());
 			ResultSet rs = pstmt.executeQuery();
 			
 			while(rs.next())

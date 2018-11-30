@@ -3,7 +3,6 @@ package dao.impl;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
-
 import bean.Manager;
 import dao.ManagerDao;
 import dbutil.ConnectionManager;
@@ -36,4 +35,5 @@ public class ManagerDaoImpl implements ManagerDao {
 		}
 		return manager;
 	}
+
 }

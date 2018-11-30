@@ -61,10 +61,10 @@ public class addPanel extends JPanel {
 					JOptionPane.showMessageDialog(null, "请填写正确姓名！", "Error", JOptionPane.ERROR_MESSAGE);
 				} else {
 					BridgeService sp = new BridgeServiceImpl();
-					if (addNumText.getText().trim().equals(sp.findById(addNumText.getText().trim()).getId())) {
+					if (sp.IdIsExist(addNumText.getText().trim())) {
+						System.out.println(addNumText.getText().trim());
 						JOptionPane.showMessageDialog(null, "该编号已存在！", "Error", JOptionPane.ERROR_MESSAGE);
-					} 
-					if (!addNumText.getText().trim().equals(sp.findById(addNumText.getText().trim()).getId())) {
+					}else  {
 						Bridge insertBridge = new Bridge(addNumText.getText(), addNameText.getText(),
 								addTypeText.getText(), Integer.parseInt(addLengthText.getText()),
 								addManageText.getText(), addLocationText.getText());
@@ -144,7 +144,7 @@ public class addPanel extends JPanel {
 
 		messageLabel = new JLabel("增加桥梁信息");
 		messageLabel.setSize(180, 20);
-		messageLabel.setLocation(300, 0);
+		messageLabel.setLocation(350, 0);
 		messageLabel.setFont(new Font("楷体", Font.BOLD, 24));
 
 		addSubmitBt = new JButton("增加");

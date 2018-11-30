@@ -3,10 +3,12 @@ package uI;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.io.File;
 
 import javax.swing.*;
 
 import bean.Manager;
+import dbutil.LogInfo;
 import service.ManagerService;
 import service.impl.ManagerServiceImpl;
 
@@ -119,10 +121,15 @@ public class Window extends JFrame{
 		    public void actionPerformed(ActionEvent e) {
 				Manager admin = new Manager(usernameText.getText().trim(), String.valueOf(passwordText.getPassword()).trim());
 				ManagerService ms = new ManagerServiceImpl();
+				String message = null;
+				String usename = usernameText.getText();
+				String url = "127.0.0.1";
+				File file = new File("F:log.txt");
 				if(ms.login(admin)) {
 					lPanel.setVisible(false);
 					remove(lPanel);
 					add(bar, BorderLayout.NORTH);
+					message="login success";
 				}
 				else if(usernameText.getText().trim().equals("")){
 					JOptionPane.showMessageDialog(null, "用户名不能为空！", "Error", JOptionPane.ERROR_MESSAGE);
@@ -132,8 +139,11 @@ public class Window extends JFrame{
 				}
 				else {
 					JOptionPane.showMessageDialog(null, "用户名或密码错误！", "Error", JOptionPane.ERROR_MESSAGE);
+					message = "try to login,but fliad";
 				}
+				LogInfo.saveLog(file,usename , url, message);
 			}
+			
 		});
 
 		// 登录界面退出按钮事件

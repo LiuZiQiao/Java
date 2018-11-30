@@ -14,6 +14,8 @@ public interface BridgeService {
 	Bridge findById(String id);
 	boolean Insert(Bridge street);
 	boolean deleteById(String id);
+	
+	boolean IdIsExist(String id);
 	boolean modfiy(Bridge street);
 	
 	List<Bridge> findAll();
