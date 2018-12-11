@@ -1,5 +1,6 @@
 package day11_30_sort;
 
+import algsTest.edu.princeton.cs.algs4.In;
 import edu.princeton.cs.algs4.StdIn;
 import edu.princeton.cs.algs4.StdOut;
 
@@ -83,9 +84,12 @@ public class Shell {
      * @param args the command-line arguments
      */
     public static void main(String[] args) {
-        String[] a = StdIn.readAllStrings();
+        String[] a = new In("F:\\code\\Java\\algs\\data.txt").readAllStrings();
+        long starttime = System.currentTimeMillis(); 
         Shell.sort(a);
+        long endttime = System.currentTimeMillis();
         show(a);
+        System.out.println(endttime - starttime);
     }
 
 }

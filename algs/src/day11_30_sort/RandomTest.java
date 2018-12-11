@@ -3,12 +3,15 @@ package day11_30_sort;
 import java.io.File;
 import java.util.Random;
 
+import edu.princeton.cs.algs4.StdRandom;
+
 import java.io.*;  
   
   
 public class RandomTest   
 {     
-    public static void main(String[] args)  
+	
+	public static void main(String[] args)  
     {  
         String filepath = System.getProperty("user.dir");     
         filepath +="\\data.txt";  
@@ -27,12 +30,16 @@ public class RandomTest
               
             //产生随机数据，写入文件  
             Random random = new Random();  
-            for(int i=0;i<500000;i++)  
+            for(int i=0;i<150000;i++)  
             {     
                 int randint =(int)Math.floor((random.nextDouble()*100000.0));   //产生0-10000之间随机数          
                 bw.write(String.valueOf(randint));      //写入一个随机数  
                 bw.newLine();       //新的一行  
             }  
+            
+           
+            
+            
             bw.close();  
             fw.close();  
               
